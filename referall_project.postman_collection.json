@@ -75,15 +75,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/signup",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/signup",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -121,15 +116,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/signup",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/signup",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -154,15 +144,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/signup",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/signup",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -187,15 +172,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/get_token",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/get_token",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -286,15 +266,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/get_token",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/get_token",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -333,15 +308,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/get_token",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/get_token",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -363,15 +333,10 @@
 					}
 				],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/profile/1",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/profile/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"profile",
@@ -393,15 +358,10 @@
 					}
 				],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/profile/2",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/profile/2",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"profile",
@@ -417,15 +377,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/profile/1",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/profile/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"profile",
@@ -456,15 +411,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/profile/1/",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/profile/1/",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"profile",
@@ -496,15 +446,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/profile/3/",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/profile/3/",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"profile",
@@ -527,15 +472,10 @@
 					}
 				],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/profile/2/",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/profile/2/",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"profile",
