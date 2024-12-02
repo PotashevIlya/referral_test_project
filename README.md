@@ -47,6 +47,13 @@ docker compose up -d
 ```
 docker compose exec backend python manage.py migrate
 ```
+5. Собрать статические файлы - последовательно выполнить команды
+```
+docker compose exec backend python manage.py collectstatic
+```
+```
+docker compose exec backend cp -r /app/collected_static/. /backend_static/static/
+```
 ### Локально
 1. Клонировать репозиторий и перейти в него в командной строке
 ```

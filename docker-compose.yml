@@ -2,6 +2,7 @@ version: '3'
 
 volumes:
   pg_data:
+  static:
 
 services:
   db:
@@ -13,10 +14,14 @@ services:
   backend:
     build: ./referral_system/
     env_file: .env
+    volumes:
+      - static:/backend_static
     depends_on:
       - db
 
   gateway:
     build: ./referral_system/gateway/
+    volumes:
+      - static:/staticfiles/
     ports:
       - 8000:80

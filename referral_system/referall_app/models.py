@@ -49,3 +49,4 @@ class ReferallUser(AbstractUser):
         return self.phone_number
 
     USERNAME_FIELD = 'phone_number'
+    REQUIRED_FIELDS = ['username']
